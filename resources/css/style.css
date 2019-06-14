@@ -20,12 +20,14 @@ html {
     /*1em = 10px*/
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
+    height: 100%;
 }
 
 body {
     font-size: 2em;
     /* 20px by default*/
     overflow-x: hidden;
+    height: 100%;
 }
 
 .clearfix {
