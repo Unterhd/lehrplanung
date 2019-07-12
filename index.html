@@ -7,7 +7,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <meta name="Excel Workbook Frameset">
 <meta http-equiv=Content-Type content="text/html; charset=utf-8">
 <meta name=ProgId content=Excel.Sheet>
-<meta name=Generator content="Microsoft Excel 15">
+<meta name=Generator content="Microsoft Excel 12">
 <link rel=File-List href="index-Dateien/filelist.xml">
 <![if !supportTabStrip]>
 <link id="shLink" href="index-Dateien/sheet001.html">
@@ -59,7 +59,7 @@ function fnGetIEVer()
 function fnBuildFrameset()
 {
  var szHTML="<frameset rows=\"*,18\" border=0 width=0 frameborder=no framespacing=0>"+
-  "<frame src=\""+document.all.item("shLink")[1].href+"\" name=\"frSheet\" noresize>"+
+  "<frame src=\""+document.all.item("shLink")[0].href+"\" name=\"frSheet\" noresize>"+
   "<frameset cols=\"54,*\" border=0 width=0 frameborder=no framespacing=0>"+
   "<frame src=\"\" name=\"frScroll\" marginwidth=0 marginheight=0 scrolling=no>"+
   "<frame src=\"\" name=\"frTabs\" marginwidth=0 marginheight=0 scrolling=no>"+
@@ -332,11 +332,10 @@ function fnSetActiveSheet(iSh)
    </x:ExcelWorksheet>
   </x:ExcelWorksheets>
   <x:Stylesheet HRef="index-Dateien/stylesheet.css"/>
-  <x:WindowHeight>9192</x:WindowHeight>
+  <x:WindowHeight>9195</x:WindowHeight>
   <x:WindowWidth>23040</x:WindowWidth>
   <x:WindowTopX>0</x:WindowTopX>
   <x:WindowTopY>0</x:WindowTopY>
-  <x:ActiveSheet>1</x:ActiveSheet>
   <x:ProtectStructure>False</x:ProtectStructure>
   <x:ProtectWindows>False</x:ProtectWindows>
  </x:ExcelWorkbook>
@@ -344,7 +343,7 @@ function fnSetActiveSheet(iSh)
 </head>
 
 <frameset rows="*,39" border=0 width=0 frameborder=no framespacing=0>
- <frame src="index-Dateien/sheet002.html" name="frSheet">
+ <frame src="index-Dateien/sheet001.html" name="frSheet">
  <frame src="index-Dateien/tabstrip.html" name="frTabs" marginwidth=0 marginheight=0>
  <noframes>
   <body>
