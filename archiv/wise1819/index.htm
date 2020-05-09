@@ -10,25 +10,20 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <meta name=Generator content="Microsoft Excel 15">
 <link rel=File-List href="index-Dateien/filelist.xml">
 <![if !supportTabStrip]>
-<link id="shLink" href="index-Dateien/sheet001.html">
-<link id="shLink" href="index-Dateien/sheet002.html">
-<link id="shLink" href="index-Dateien/sheet003.html">
-<link id="shLink" href="index-Dateien/sheet004.html">
-<link id="shLink" href="index-Dateien/sheet005.html">
-<link id="shLink" href="index-Dateien/sheet006.html">
+<link id="shLink" href="index-Dateien/sheet001.htm">
+<link id="shLink" href="index-Dateien/sheet002.htm">
+<link id="shLink" href="index-Dateien/sheet003.htm">
 
 <link id="shLink">
 
 <script language="JavaScript">
- var c_lTabs=6;
+<!--
+ var c_lTabs=3;
 
  var c_rgszSh=new Array(c_lTabs);
- c_rgszSh[0] = "1.Sem_a";
- c_rgszSh[1] = "1.Sem_b";
- c_rgszSh[2] = "3.Sem_a";
- c_rgszSh[3] = "3.Sem_b";
- c_rgszSh[4] = "5.Sem_a";
- c_rgszSh[5] = "5.Sem_b";
+ c_rgszSh[0] = "1. Sem";
+ c_rgszSh[1] = "3. Sem";
+ c_rgszSh[2] = "5. Sem";
 
 
 
@@ -58,7 +53,7 @@ function fnGetIEVer()
 function fnBuildFrameset()
 {
  var szHTML="<frameset rows=\"*,18\" border=0 width=0 frameborder=no framespacing=0>"+
-  "<frame src=\""+document.all.item("shLink")[0].href+"\" name=\"frSheet\" noresize>"+
+  "<frame src=\""+document.all.item("shLink")[2].href+"\" name=\"frSheet\" noresize>"+
   "<frameset cols=\"54,*\" border=0 width=0 frameborder=no framespacing=0>"+
   "<frame src=\"\" name=\"frScroll\" marginwidth=0 marginheight=0 scrolling=no>"+
   "<frame src=\"\" name=\"frTabs\" marginwidth=0 marginheight=0 scrolling=no>"+
@@ -306,35 +301,24 @@ function fnSetActiveSheet(iSh)
  <x:ExcelWorkbook>
   <x:ExcelWorksheets>
    <x:ExcelWorksheet>
-    <x:Name>1.Sem_a</x:Name>
-    <x:WorksheetSource HRef="index-Dateien/sheet001.html"/>
+    <x:Name>1. Sem</x:Name>
+    <x:WorksheetSource HRef="index-Dateien/sheet001.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>1.Sem_b</x:Name>
-    <x:WorksheetSource HRef="index-Dateien/sheet002.html"/>
+    <x:Name>3. Sem</x:Name>
+    <x:WorksheetSource HRef="index-Dateien/sheet002.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>3.Sem_a</x:Name>
-    <x:WorksheetSource HRef="index-Dateien/sheet003.html"/>
-   </x:ExcelWorksheet>
-   <x:ExcelWorksheet>
-    <x:Name>3.Sem_b</x:Name>
-    <x:WorksheetSource HRef="index-Dateien/sheet004.html"/>
-   </x:ExcelWorksheet>
-   <x:ExcelWorksheet>
-    <x:Name>5.Sem_a</x:Name>
-    <x:WorksheetSource HRef="index-Dateien/sheet005.html"/>
-   </x:ExcelWorksheet>
-   <x:ExcelWorksheet>
-    <x:Name>5.Sem_b</x:Name>
-    <x:WorksheetSource HRef="index-Dateien/sheet006.html"/>
+    <x:Name>5. Sem</x:Name>
+    <x:WorksheetSource HRef="index-Dateien/sheet003.htm"/>
    </x:ExcelWorksheet>
   </x:ExcelWorksheets>
   <x:Stylesheet HRef="index-Dateien/stylesheet.css"/>
-  <x:WindowHeight>12576</x:WindowHeight>
-  <x:WindowWidth>23256</x:WindowWidth>
-  <x:WindowTopX>-108</x:WindowTopX>
-  <x:WindowTopY>-108</x:WindowTopY>
+  <x:WindowHeight>8976</x:WindowHeight>
+  <x:WindowWidth>22920</x:WindowWidth>
+  <x:WindowTopX>120</x:WindowTopX>
+  <x:WindowTopY>120</x:WindowTopY>
+  <x:ActiveSheet>2</x:ActiveSheet>
   <x:ProtectStructure>False</x:ProtectStructure>
   <x:ProtectWindows>False</x:ProtectWindows>
  </x:ExcelWorkbook>
@@ -342,8 +326,8 @@ function fnSetActiveSheet(iSh)
 </head>
 
 <frameset rows="*,39" border=0 width=0 frameborder=no framespacing=0>
- <frame src="index-Dateien/sheet001.html" name="frSheet">
- <frame src="index-Dateien/tabstrip.html" name="frTabs" marginwidth=0 marginheight=0>
+ <frame src="index-Dateien/sheet003.htm" name="frSheet">
+ <frame src="index-Dateien/tabstrip.htm" name="frTabs" marginwidth=0 marginheight=0>
  <noframes>
   <body>
    <p>Diese Seite verwendet Frames. Frames werden von Ihrem Browser aber nicht unterstützt.</p>
